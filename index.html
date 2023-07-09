@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto X-Men</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+  </head>
+  <body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/imagens/logo.svg" alt="Logo x-men">
+    </header>
+
+    <main class="selecao-de-personagens">
+      <section class="personagens">
+        <h1 class="titulo">Selecione um personagem</h1>
+        <ul class="lista-de-personagens">
+          <li class="personagem selecionado" id="ciclope" data-name="Ciclope" data-description="Ciclope é um mutante formidável dos X-Men, cujos olhos possuem a capacidade de emitir poderosos raios ópticos. Seu olhar é tanto uma maldição quanto uma força, guiando sua jornada com precisão letal. Ciclope é um líder confiável, que usa seu poder de forma estratégica para proteger e liderar sua equipe na batalha contra o mal.">
+            <img
+              src="./src/imagens/imagens/card-ciclope.jpg"
+              alt="Personagem Ciclope"
+            />
+          </li>
+          <li class="personagem" id="jean-grey" data-name="Jean Grey" data-description="Jean Grey é uma mutante de poderes psíquicos impressionantes, capaz de manipular mentes e controlar poderes cósmicos. Sua alma é um farol de força e compaixão, enquanto sua fênix interior irradia uma luz ardente que desafia os limites do poder.">
+            <img
+              src="./src/imagens/imagens/card-jean-grey.jpg"
+              alt="Personagem Jean Grey"
+            />
+          </li>
+          <li class="personagem" id="lince-negra" data-name="Lince Negra" data-description="Lince Negra é uma mutante ágil e letal, dominando as sombras com graça felina. Seus reflexos e garras afiadas são uma combinação perfeita para combater o mal, deslizando pela escuridão como um raio de esperança para os oprimidos.">
+            <img
+              src="./src/imagens/imagens/card-lince-negra.jpg"
+              alt="Personagem Lince Negra"
+            />
+          </li>
+          <li class="personagem" id="tempestade" data-name="Tempestade" data-description="Tempestade é uma mutante comandante dos elementos, capaz de convocar tempestades devastadoras com um simples movimento de suas mãos. Seu poder é tão imponente quanto sua presença, com olhos faiscantes e cabelos ao vento, ela é uma deusa tempestuosa que governa os céus e protege os inocentes.">
+            <img
+              src="./src/imagens/imagens/card-tempestade.jpg"
+              alt="Personagem Tempestade"
+            />
+          </li>
+          <li class="personagem" id="vampira" data-name="Vampira" data-description="Vampira  é uma mutante atormentada com o dom perigoso de absorver a energia vital de outros seres. Seu toque é tanto uma maldição quanto uma arma, pois ela luta para controlar sua sede insaciável. Com olhos sombrios e uma força interior indomável, ela busca redenção enquanto caminha na linha tênue entre a escuridão e a luz.">
+            <img
+              src="./src/imagens/imagens/card-vampira.jpg"
+              alt="Personagem Vampira"
+            />
+          </li>
+          <li class="personagem" id="wolverine" data-name="Wolverine" data-description="Wolverine é um mutante feroz e implacável, conhecido por suas garras de adamantium e capacidade de regeneração. Com olhos penetrantes e um espírito indomável, ele é um guerreiro solitário que luta incansavelmente. Wolverine deixa uma trilha de justiça selvagem em seu caminho, sendo um sobrevivente nato e um protetor implacável dos inocentes."> 
+            <img
+              src="./src/imagens/imagens/card-wolverine.jpg"
+              alt="Personagem Wolverine"
+            />
+          </li>
+          <li class="personagem" id="noturno" data-name="Noturno" data-description="Noturno é um mutante habilidoso na acrobacia e na arte da teletransporte. Sua aparência exótica, com pele azul e olhos amarelos brilhantes, esconde uma alma gentil e compassiva. Com agilidade sobre-humana, ele protege os necessitados, surgindo como um anjo da noite para combater o mal. Noturno é um protetor das sombras, um defensor dos oprimidos.">
+          <img
+            src="./src/imagens/imagens/card-noturno.jpg"
+              alt="Personagem Noturno"
+            />
+          </li>
+          <li class="personagem" id="magneto" data-name="Magneto" data-description="Magneto é um poderoso mutante com controle absoluto sobre metais. Ele é um líder carismático que luta pelos direitos e igualdade dos mutantes. Com sua mente estratégica e poderes magnéticos devastadores, ele molda o campo de batalha ao seu bel-prazer. Magneto personifica a complexidade da luta pela sobrevivência mutante.">
+            <img  
+            src="./src/imagens/imagens/card-magneto.jpg"
+            alt="Personagem Magneto"
+            />
+          </li>
+        </ul>
+      </section>
+      <section class="personagem-selecionado">
+        <img
+          class="personagem-grande"
+          src="./src/imagens/imagens/card-ciclope.png"
+          alt="Personagem Selecionado"
+        />
+
+        <div class="informacoes-personagem">
+          <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+            Ciclope é um formidável mutante com olhos capazes de emitir poderosos raios
+            ópticos, seu olhar é tanto sua maldição quanto sua força, guiando
+            sua jornada com precisão letal
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
